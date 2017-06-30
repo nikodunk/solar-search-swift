@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9171D7FE1EFD9B8200B8C999 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171D7FD1EFD9B8200B8C999 /* SignupViewController.swift */; };
+		9171D8001EFD9C7400B8C999 /* SignupViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171D7FF1EFD9C7400B8C999 /* SignupViewControllerTwo.swift */; };
+		9171D8021EFDA78200B8C999 /* TabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171D8011EFDA78200B8C999 /* TabBarControllerViewController.swift */; };
+		9171F6BF1EF846AB007167B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171F6BE1EF846AB007167B1 /* AppDelegate.swift */; };
+		9171F6C41EF846AB007167B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9171F6C21EF846AB007167B1 /* Main.storyboard */; };
+		9171F6C61EF846AB007167B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9171F6C51EF846AB007167B1 /* Assets.xcassets */; };
+		9171F6D41EF89673007167B1 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171F6D31EF89673007167B1 /* LocationViewController.swift */; };
+		91AF628A1F0190CE006CBDC3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AF62891F0190CE006CBDC3 /* TableViewController.swift */; };
+		91B40C8C1EF8C13A00DEED08 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B40C8B1EF8C13A00DEED08 /* ResultsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9171D7FD1EFD9B8200B8C999 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		9171D7FF1EFD9C7400B8C999 /* SignupViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewControllerTwo.swift; sourceTree = "<group>"; };
+		9171D8011EFDA78200B8C999 /* TabBarControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarControllerViewController.swift; sourceTree = "<group>"; };
+		9171F6BB1EF846AB007167B1 /* Solaro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solaro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9171F6BE1EF846AB007167B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9171F6C31EF846AB007167B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9171F6C51EF846AB007167B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9171F6CA1EF846AB007167B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9171F6D11EF84BB0007167B1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9171F6D31EF89673007167B1 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		91AF62891F0190CE006CBDC3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		91B40C8B1EF8C13A00DEED08 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9171F6B81EF846AB007167B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9171F6B21EF846AB007167B1 = {
+			isa = PBXGroup;
+			children = (
+				9171F6BD1EF846AB007167B1 /* Solaro */,
+				9171F6BC1EF846AB007167B1 /* Products */,
+				9171F6D01EF84BB0007167B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9171F6BC1EF846AB007167B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9171F6BB1EF846AB007167B1 /* Solaro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9171F6BD1EF846AB007167B1 /* Solaro */ = {
+			isa = PBXGroup;
+			children = (
+				91B40C8A1EF8C0ED00DEED08 /* Supporting Files */,
+				9171F6C21EF846AB007167B1 /* Main.storyboard */,
+				9171F6D31EF89673007167B1 /* LocationViewController.swift */,
+				91B40C8B1EF8C13A00DEED08 /* ResultsViewController.swift */,
+				9190BAB21F023104002A2E53 /* sign-up process */,
+				9171D8011EFDA78200B8C999 /* TabBarControllerViewController.swift */,
+				91AF62891F0190CE006CBDC3 /* TableViewController.swift */,
+			);
+			path = Solaro;
+			sourceTree = "<group>";
+		};
+		9171F6D01EF84BB0007167B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9171F6D11EF84BB0007167B1 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9190BAB21F023104002A2E53 /* sign-up process */ = {
+			isa = PBXGroup;
+			children = (
+				9171D7FD1EFD9B8200B8C999 /* SignupViewController.swift */,
+				9171D7FF1EFD9C7400B8C999 /* SignupViewControllerTwo.swift */,
+			);
+			name = "sign-up process";
+			sourceTree = "<group>";
+		};
+		91B40C8A1EF8C0ED00DEED08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9171F6BE1EF846AB007167B1 /* AppDelegate.swift */,
+				9171F6C51EF846AB007167B1 /* Assets.xcassets */,
+				9171F6CA1EF846AB007167B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9171F6BA1EF846AB007167B1 /* Solaro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9171F6CD1EF846AB007167B1 /* Build configuration list for PBXNativeTarget "Solaro" */;
+			buildPhases = (
+				9171F6B71EF846AB007167B1 /* Sources */,
+				9171F6B81EF846AB007167B1 /* Frameworks */,
+				9171F6B91EF846AB007167B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solaro;
+			productName = Solaro;
+			productReference = 9171F6BB1EF846AB007167B1 /* Solaro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9171F6B31EF846AB007167B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nikolai Dunkel";
+				TargetAttributes = {
+					9171F6BA1EF846AB007167B1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XFR45HGENZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9171F6B61EF846AB007167B1 /* Build configuration list for PBXProject "Solaro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9171F6B21EF846AB007167B1;
+			productRefGroup = 9171F6BC1EF846AB007167B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9171F6BA1EF846AB007167B1 /* Solaro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9171F6B91EF846AB007167B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9171F6C61EF846AB007167B1 /* Assets.xcassets in Resources */,
+				9171F6C41EF846AB007167B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9171F6B71EF846AB007167B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9171D8021EFDA78200B8C999 /* TabBarControllerViewController.swift in Sources */,
+				91AF628A1F0190CE006CBDC3 /* TableViewController.swift in Sources */,
+				9171F6D41EF89673007167B1 /* LocationViewController.swift in Sources */,
+				9171D7FE1EFD9B8200B8C999 /* SignupViewController.swift in Sources */,
+				9171F6BF1EF846AB007167B1 /* AppDelegate.swift in Sources */,
+				91B40C8C1EF8C13A00DEED08 /* ResultsViewController.swift in Sources */,
+				9171D8001EFD9C7400B8C999 /* SignupViewControllerTwo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9171F6C21EF846AB007167B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9171F6C31EF846AB007167B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9171F6CB1EF846AB007167B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9171F6CC1EF846AB007167B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9171F6CE1EF846AB007167B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XFR45HGENZ;
+				INFOPLIST_FILE = Solaro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smoke.SummonSolar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9171F6CF1EF846AB007167B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XFR45HGENZ;
+				INFOPLIST_FILE = Solaro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smoke.SummonSolar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9171F6B61EF846AB007167B1 /* Build configuration list for PBXProject "Solaro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9171F6CB1EF846AB007167B1 /* Debug */,
+				9171F6CC1EF846AB007167B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9171F6CD1EF846AB007167B1 /* Build configuration list for PBXNativeTarget "Solaro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9171F6CE1EF846AB007167B1 /* Debug */,
+				9171F6CF1EF846AB007167B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9171F6B31EF846AB007167B1 /* Project object */;
+}
